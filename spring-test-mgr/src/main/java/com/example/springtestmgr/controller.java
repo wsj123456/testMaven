@@ -11,4 +11,9 @@ public class controller {
         System.out.println("hello world!");
         return "hello world!";
     }
+    @RequestMapping(value="/helloWorld",method = RequestMethod.GET)
+    public String helloWorld(){
+        System.out.println("hello world!");
+        return "hello world!";
+    }
 }
